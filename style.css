@@ -97,6 +97,12 @@ p{
     margin-bottom: 50px;
     max-width: 100%;
 }
+.separacion{
+    width: 100%;
+}
+.separacionMobile{
+    display: none;
+}
 .sectionProductos{
     width: 80%;
 }
@@ -165,8 +171,12 @@ button:hover{
     .contenedorDestacados{
         display: none;
     }
+    .contenedorDestacados_encabezado{
+        margin: 0px;
+    }
     .prod{
         display: none;
+        width: 100%;
     }
     .prodMobile{
         width: 89.5px;
@@ -184,7 +194,7 @@ button:hover{
         flex-direction: row;
         justify-content: space-between;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .contenedor_mobile img{
         width: 49%;
@@ -194,7 +204,7 @@ button:hover{
         letter-spacing: 5px;
     }
     button{
-        padding: 2em 1.5em;
+        padding: 1.8em 1.2em;
         font-size: 10px;
         margin-top: 10px;
     }
@@ -203,5 +213,11 @@ button:hover{
     }
     .contenedorProductos{
         width: 100%;
+    }
+    .separacion{
+        display: none;
+    }
+    .separacionMobile{
+        display: block;
     }
 }
